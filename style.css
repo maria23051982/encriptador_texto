@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F3FSFC;
+
+}
+
+.contenedor {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: black;
+}
+
+.logo {
+    width: 100%;
+    height: 25%;
+    background-image: url("imagenes/bg.png");
+    float: left;
+    
+}
+
+.logo-imagen {
+margin-top: 0%;
+float: inherit;
+margin-left: 0%;
+}
+
+.titulo-principal {
+float: inherit;
+margin-left: 20%;
+margin-top: 7%;
+}
+
+.izquierda {
+    background: grey;
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+
+}
+
+.derecha{
+    background: white;
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.boton-izquierdo {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    background: grey;
+}
+
+
+.text-input {
+    float: inherit;
+    margin-left: 10% ;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    background: #F3FSFC;
+    color: #OA3871;
+    font-size: 20px;
+
+}
+
+#imagedere {
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+
+#texto1 {
+ margin-left: 7%;
+ margin-right: 5%;
+}
+
+#texto2 {
+   float: lef;
+   margin-left: 10%;
+   width: 80%;
+   height: 20%;
+   border: none;
+   outline: none;
+   font-size: 15px;
+   color: black;
+   background: rgb(201, 199, 199);
+   text-align: center;
+   }
+
+   #encriptar {
+    padding: 24px;
+    width: 20%;
+    height: 5%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background:#0A3871;
+    font-weight: bold;
+    cursor: pointer;
+ 
+   }
+
+   #desencriptar {
+    padding: 24px;
+    width: 20%;
+    height: 5%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background:#D8DFE8;
+    font-weight: bold;
+    cursor: pointer;
+
+   }
+
+   
+   #botonCopiar {
+    padding: 24px;
+    width: 20%;
+    height: 5%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background:#D8DFE8;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+   #encriptar:hover {
+    background-color: blue;
+    transform: scale(1.2);
+    opacity: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+   }
+
+   #desencriptar:hover {
+    background-color: blue;
+    transform: scale(1.2);
+    opacity: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+   }
+
+   #botonCopiar:hover {
+    background-color: blue;
+    transform: scale(1.2);
+    opacity: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+   }
+
+   .text-input:placeholder-shown {
+    text-align: center;
+   }
+
+   #texto2:placeholder-shown {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+   }
